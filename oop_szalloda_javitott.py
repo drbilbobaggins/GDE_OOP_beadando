@@ -5,7 +5,7 @@ class Szoba(ABC):                                               # A Szoba absztr
     def __init__(self, ar, szobaszam):
         self.ar = ar
         self.szobaszam = szobaszam
-    
+  
     @abstractmethod
     def get_tipus(self):                                        # minden alosztálban kötelezően legyen egy getter
         pass
